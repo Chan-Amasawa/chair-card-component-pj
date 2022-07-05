@@ -1,0 +1,130 @@
+*{
+    font-family: 'Ubuntu', sans-serif; 
+}
+body{
+    background-color: #34c1c1;
+    
+}
+.component{
+    background-color: white;
+    width: 564px;
+    height: 423px;
+    margin: 250px auto;
+    display: flex;
+    box-shadow: 3px 7px 17px -2px rgba(0,0,0,0.67);
+}
+.first-component{
+    background-color: white;
+    width: 50%;
+}
+.second-component{
+    background-color: rgb(55, 54, 54);
+    width: 50%;
+}
+.first-portion{
+    border: 1.8px solid rgb(62, 54, 54);
+    border-radius: 5px;
+    padding: 1px 2px;
+    display: inline-block;
+    margin: 20px 20px;
+    opacity: 0.3;
+}
+.first-portion-txt{
+     margin: 0;
+     font-size: 9px;
+}
+.sofa-img{
+    width: 200px;
+    padding: 15%;
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+.third-portion{
+    margin-top: -50px;
+    margin-left: 45%;
+}
+
+.circle{
+    background-color: #BEBEBB;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.active{
+    background-color: grey;
+}
+.second-component{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.chair_header{
+    color: #bebebb;
+    font-weight: 500;
+    font-size: 10px;
+}
+.long-heading{
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+}
+.owner-text{
+    color: #b9b5b5;
+    font-size: 12px;
+    margin-top: -16px;
+}
+.price{
+    display: inline-block;
+    margin-right: 87px;
+}
+.icon-group{
+    display: inline-block;
+}
+.rating{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inline-block-text{
+    display: inline-block;
+}
+.inline-block-text:hover{
+    color: white;
+}
+.active-btn{
+    color: white;
+}
+.menu{
+    font-size: 11px;
+    color: #b9b5b5;
+    font-weight: 500;
+}
+.text-padding{
+    padding: 0px 12px;
+}
+.hr{
+    width: 30%;
+    height: 1px;
+    background-color: #b1b1b1;
+}
+.paragraph{
+    color: #b1b1b1;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.see_more{
+    color: #d7d7d7;
+}
+.label-menu{
+    color: white;
+    font-size: small;
+}
+.btn2{
+    width: 100%;
+    margin-top: 30px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
